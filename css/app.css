@@ -12,7 +12,7 @@ body {
     margin: 0;
     font: 14px/1.5 Tahoma, "Microsoft Yahei", Helvetica, Arial, sans-serif;
     color: #000;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQY02P4//8/AwgDgRBeTLZCGB/DAGwKsbEpU0iU1dTzNSFMtEIAJYKTGa762IgAAAAASUVORK5CYII=') fixed;
+    background: #555 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQY02P4//8/AwgDgRBeTLZCGB/DAGwKsbEpU0iU1dTzNSFMtEIAJYKTGa762IgAAAAASUVORK5CYII=') fixed;
 }
 .container {
     width: 320px;
