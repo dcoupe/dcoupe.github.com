@@ -79,3 +79,6 @@ jekyll还是数据组织还是相当不错的，可以通过下面的方式获�
 ##github上的设置
 创建仓库，<username>.github.com, 建立一个这样的仓库，可以在master上提交一个jekyll的站点后，github自动帮你生成所有的静态文件。
 
+##以前的blog内容
+
+<http://dcoupe.sinaapp.com/>
