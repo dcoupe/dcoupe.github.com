@@ -8,4 +8,4 @@ tags : wordpress
 
 最近开发了一个wordpress插件，主要是基于wordpress编辑器tinymce做的一个扩展，具体功能就到wordpress插件官网查看吧！
 
-URL<http://wordpress.org/extend/plugins/appwidget/ >
+URL <http://wordpress.org/extend/plugins/appwidget>
