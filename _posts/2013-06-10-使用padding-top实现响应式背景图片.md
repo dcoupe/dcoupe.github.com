@@ -75,5 +75,6 @@ figure.fluidratio {
 [自己动手试试吧](http://voormedia.com/blog/2012/11/responsive-background-images-with-fixed-or-fluid-aspect-ratios/example-with-fluid-image)
 
 ##REF:
-*[Responsive background images with fixed or fluid aspect ratios](http://voormedia.com/blog/2012/11/responsive-background-images-with-fixed-or-fluid-aspect-ratios)
-*[Creating Intrinsic Ratios for Video](http://alistapart.com/article/creating-intrinsic-ratios-for-video)
+
++[Responsive background images with fixed or fluid aspect ratios](http://voormedia.com/blog/2012/11/responsive-background-images-with-fixed-or-fluid-aspect-ratios)
++[Creating Intrinsic Ratios for Video](http://alistapart.com/article/creating-intrinsic-ratios-for-video)
