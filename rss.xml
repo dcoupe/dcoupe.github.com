@@ -7,22 +7,22 @@ layout : nil
 <channel>
 <title>{{site.name |append:' ' xml_escape}}</title>
 <image>
-    <link>http://jser.me</link>
-    <url>http://jser.me/images/logo.png</url>
+    <link>http://dcoupe.github.io</link>
+    <url>http://dcoupe.github.io/images/logo.png</url>
 </image>
-<link>http://jser.me</link>
+<link>http://dcoupe.github.io</link>
 <description/>
 <language>zh-cn</language>
-<generator>http://jser.me</generator>
+<generator>http://dcoupe.github.io</generator>
 <ttl>5</ttl>
-<copyright><![CDATA[Copyright &copy; jser.me]]></copyright>
+<copyright><![CDATA[Copyright &copy; dcoupe]]></copyright>
 {% for post in site.posts limit: 20 %}
      <item>
          <title>{{ post.title | append:' ' xml_escape }}</title>
          <link>{{ site.url }}{{ post.url }}</link>
          <guid>{{ site.url }}{{ post.id }}</guid>
          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-         <author><![CDATA[草依山]]></author>
+         <author><![CDATA[dcoupe]]></author>
          <description><![CDATA[{{ post.content }}]]></description>
      </item>
 {% endfor %}

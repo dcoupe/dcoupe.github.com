@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 草依山的Javascript世界 
+title: 濯焰的不老歌
 ---
 
 {% for post in site.posts %}
