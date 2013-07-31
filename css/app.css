@@ -1,0 +1,352 @@
+/*** first 320px **/
+ html {
+    background: #6C7989;
+    background: #6c7989 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6c7989), color-stop(100%, #434b55)) fixed;
+    background: #6c7989 -webkit-linear-gradient(#6c7989, #434b55) fixed;
+    background: #6c7989 -moz-linear-gradient(#6c7989, #434b55) fixed;
+    background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
+    background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
+    background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;
+}
+body {
+    margin: 0;
+    font: 14px/1.5 Tahoma, "Microsoft Yahei", Helvetica, Arial, sans-serif;
+    color: #000;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAeCAYAAABNChwpAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAUdEVYdENyZWF0aW9uIFRpbWUAMy82LzEygrTcTAAAAFRJREFUSIljfPDggZRf5RIGGNjUHsNATz6jXmSL1Kb2GLiAX+USBnrymRgGGDCORgFmoNAXjEbBaBSMRsFoFIxGwWgUjEbBaBSMRsFoFIxGwWgUAABYNujumib3wAAAAABJRU5ErkJggg==') fixed;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+    background: #DEDEDE;
+    position:relative;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+}
+header, section, footer {
+    display: block;
+}
+a {
+    color: #069;
+    text-decoration: none;
+}
+a:hover {
+    color: #339ACC;
+}
+header {
+    background: #C6EAFA;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ddfbfc), color-stop(100%, #c6eafa));
+    background: -webkit-linear-gradient(#ddfbfc, #c6eafa);
+    background: -moz-linear-gradient(#ddfbfc, #c6eafa);
+    background: -o-linear-gradient(#ddfbfc, #c6eafa);
+    background: -ms-linear-gradient(#ddfbfc, #c6eafa);
+    background: linear-gradient(#ddfbfc, #c6eafa);
+    position: relative;
+    padding:5px;
+    border-bottom: 1px solid #B2D2E1;
+    z-index:3;
+}
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #069;
+    text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
+}
+header p {
+    margin: 0;
+    color: #61778B;
+    width: 260px;
+    font-size: 12px;
+    line-height:15px;
+}
+header .logo {
+    position: absolute;
+    top: 2px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    right: 2px;
+}
+.article {
+    height:20px;
+    margin:5px 0;
+    margin-left:30px;
+}
+.article .datetime {
+    margin-right:10px;
+}
+h1.title {
+    font-size:16px;
+    line-height:19px;
+}
+.post p {
+    font-size:12px;
+    line-height:15px;
+}
+.post {
+    border-bottom:1px solid #888;
+}
+section {
+    padding: 5px;
+    border-top: 1px solid #fff;
+    background: #fafafa;
+    background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #fafafa), color-stop(100%, #dedede));
+    background: -webkit-linear-gradient(#fafafa, #dedede 700px);
+    background: -moz-linear-gradient(#fafafa, #dedede 700px);
+    background: -o-linear-gradient(#fafafa, #dedede 700px);
+    background: -ms-linear-gradient(#fafafa, #dedede 700px);
+    background: linear-gradient(#fafafa, #dedede 700px);
+    position: relative;
+    min-height:400px;
+    z-index:3;
+}
+p {
+    margin:1em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    padding: 0;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+p, ul, ol, table, pre, dl {
+    margin: 0 0 10px;
+}
+h1 {
+    font-size: 28px;
+    margin:12px 0 6px 0;
+}
+h2 {
+    margin:15px 0 10px 0 ; 
+}
+h3, h4, h5, h6 {
+    color: #494949;
+}
+blockquote {
+    margin: 0 -20px 20px;
+    padding: 15px 20px 1px 40px;
+    font-style: italic;
+    background: #ccc;
+    background: rgba(0, 0, 0, 0.06);
+    color: #222;
+}
+img {
+    max-width: 100%;
+    border:none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #aaa;
+}
+th {
+    color: #222;
+}
+hr {
+    border: 0;
+    background: #aaa;
+    height: 1px;
+    margin: 0 0 20px;
+}
+footer {
+    width: 100%;
+    color: #ccc;
+    overflow: hidden;
+    background:#FFF;
+    border-top:5px #C6EAFA solid;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table {
+    width: 100%;
+    margin-bottom: 18px;
+}
+.table th, .table td {
+    padding: 8px;
+    line-height: 18px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+.table th {
+    font-weight: bold;
+}
+.table thead th {
+    vertical-align: bottom;
+}
+.msg-global {
+    position:absolute;
+    background:#FF6C14;
+    color:#FFF;
+    padding:10px;
+    z-index:999
+}
+.msg404 {
+    text-align:center;
+    font-size:200px;
+    padding:300px 0;
+}
+.tag {
+    padding: 2px 3px;
+    margin-left:5px;
+    margin-bottom:3px;
+}
+.tag:hover .tagcount {
+    background:#BBB;
+}
+.tagcount {
+    display: inline-block;
+    min-width: 6px;
+    padding: 3px 6px;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #999999;
+    border-radius: 6px;
+    margin-left:2px;
+}
+.tags-con {
+    float:left;
+    width:48%;
+    padding:10px 0 10px 20px;
+}
+.tags-con a {
+    float:left;
+}
+.content li {
+    margin:5px 0;
+}
+.links-con {
+    float:right;
+    width:20%;
+    padding:10px;
+}
+.links-con ul, .links-aboutme ul {
+    margin-left:0;
+    padding-left:0;
+    -webkit-margin-before: 0em;
+    list-style:none;
+}
+.links-con ul li, .links-aboutme ul li {
+    margin:5px 0;
+}
+.links-aboutme {
+    float:right;
+    width:20%;
+    padding:10px;
+}
+.meta {
+    margin:10px 0 20px 0;
+    overflow:hidden;
+}
+.meta .tags {
+    float:left;
+}
+.meta .datetime {
+    float:right;
+}
+.site-info {
+    text-align:center;
+    padding:10px 0;
+}
+code {
+    background:#222;
+    color:#FFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding:3px 5px;
+}
+/** 480px __________________________________________________________________________________________________________ */
+ @media only screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+    }
+}
+/**768px __________________________________________________________________________________________________________ */
+ @media only screen and (min-width: 768px) {
+    body {
+        font-size:14px;
+        padding: 32px 0;
+    }
+    .container {
+        width: 768px;
+    }
+    header {
+        padding: 15px 20px;
+        -webkit-border-radius: 8px 8px 0 0;
+        -moz-border-radius: 8px 8px 0 0;
+        -ms-border-radius: 8px 8px 0 0;
+        -o-border-radius: 8px 8px 0 0;
+        border-radius: 8px 8px 0 0;
+    }
+    header h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    header p {
+        width: auto;
+        font-size: 14px;
+        line-height:20px;
+        width:350px;
+    }
+    header .logo {
+        top: 18px;
+        border: 4px solid rgba(255, 255, 255, 0.8);
+        right: 21px;
+    }
+    h1.title {
+        font-size:20px;
+        line-height:26px;
+    }
+    .content p {
+        font-size:14px;
+        line-height:20px;
+    }
+    section {
+        padding: 15px 20px;
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        -ms-border-radius: 0 0 8px 8px;
+        -o-border-radius: 0 0 8px 8px;
+        border-radius: 0 0 8px 8px;
+    }
+    .pagination {
+        height: 40px;
+        margin: 20px 0;
+    }
+}
+/** 960px __________________________________________________________________________________________________________ */
+ @media only screen and (min-width: 960px) {
+    body {
+        padding: 50px 0;
+    }
+    .container {
+        width: 960px;
+    }
+}
+/** 1280px __________________________________________________________________________________________________________ */
+ @media only screen and (min-width: 1280px) {
+    .container {
+        width: 960px;
+    }
+}

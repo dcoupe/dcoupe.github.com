@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="keywords" content="草依山,javascript实践,jser.me,jser">
+    <meta name="description" content="这里是草依山(@ihubo)的学习和生活记录">
+    <meta name="COPYRIGHT" content="版权所有2012,http://jser.me/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/vnd.microsoft.icon">
+    <link href="/css/app.css" type="text/css" rel="stylesheet">
+    <link href="/css/syntax.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <link href="/css/app_media_query_back.css" type="text/css" rel="stylesheet">
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script>
+      (function(l,f){function m(){var a=e.elements;return"string"==typeof a?a.split(" "):a}function i(a){var b=n[a[o]];b||(b={},h++,a[o]=h,n[h]=b);return b}function p(a,b,c){b||(b=f);if(g)return b.createElement(a);c||(c=i(b));b=c.cache[a]?c.cache[a].cloneNode():r.test(a)?(c.cache[a]=c.createElem(a)).cloneNode():c.createElem(a);return b.canHaveChildren&&!s.test(a)?c.frag.appendChild(b):b}function t(a,b){if(!b.cache)b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag();
+      a.createElement=function(c){return!e.shivMethods?b.createElem(c):p(c,a,b)};a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/\w+/g,function(a){b.createElem(a);b.frag.createElement(a);return'c("'+a+'")'})+");return n}")(e,b.frag)}function q(a){a||(a=f);var b=i(a);if(e.shivCSS&&!j&&!b.hasCSS){var c,d=a;c=d.createElement("p");d=d.getElementsByTagName("head")[0]||d.documentElement;c.innerHTML="x<style>article,aside,figcaption,figure,footer,header,hgroup,nav,section{display:block}mark{background:#FF0;color:#000}</style>";
+      c=d.insertBefore(c.lastChild,d.firstChild);b.hasCSS=!!c}g||t(a,b);return a}var k=l.html5||{},s=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,r=/^<|^(?:a|b|button|code|div|fieldset|form|h1|h2|h3|h4|h5|h6|i|iframe|img|input|label|li|link|ol|option|p|param|q|script|select|span|strong|style|table|tbody|td|textarea|tfoot|th|thead|tr|ul)$/i,j,o="_html5shiv",h=0,n={},g;(function(){try{var a=f.createElement("a");a.innerHTML="<xyz></xyz>";j="hidden"in a;var b;if(!(b=1==a.childNodes.length)){f.createElement("a");
+      var c=f.createDocumentFragment();b="undefined"==typeof c.cloneNode||"undefined"==typeof c.createDocumentFragment||"undefined"==typeof c.createElement}g=b}catch(d){g=j=!0}})();var e={elements:k.elements||"abbr article aside audio bdi canvas data datalist details figcaption figure footer header hgroup mark meter nav output progress section summary time video",shivCSS:!1!==k.shivCSS,supportsUnknownElements:g,shivMethods:!1!==k.shivMethods,type:"default",shivDocument:q,createElement:p,createDocumentFragment:function(a,
+      b){a||(a=f);if(g)return a.createDocumentFragment();for(var b=b||i(a),c=b.frag.cloneNode(),d=0,e=m(),h=e.length;d<h;d++)c.createElement(e[d]);return c}};l.html5=e;q(f)})(this,document);
+  </script>
+  <![endif]-->
+  </head>
+  <body> 
+    <div id="container" class="container">
+      <header>
+        <h1><a href="/">{{ site.name }}</a></h1>
+        <p>一个Javascript程序猿的学习纪录剩地,不仅仅是JS,还有Linux、Mac、nodeJs、吃、玩！</p>
+        <a href="/about.html"><img src="/images/logo.png" class="logo"></a>
+      </header>
+      <section class="content">
+        {{content}}
+      </section>
+
+        <footer class="global-footer">
+            <div class="tags-con">
+                <h2>Tags</h2>
+                {% for tag in site.tags %}
+                <a class="tag" href="/tag.html#{{tag[0]}}">{{tag[0]}}<span class="tagcount">{{tag[1] | size}}</span></a>
+                {% endfor %}
+            </div>
+            <div class="links-aboutme">
+                <h2>联系我</h2>
+                <ul>
+                    <li> <a href="/about.html">关于 @草依山</a></li>
+                    <li> <a href="http://www.weibo.com/ihubo" target="_blank">新浪微博(@草依山)</a></li>
+                    <li> <a href="http://www.zhihu.com/people/jser.me" target="_blank">知乎</a></li>
+                    <li> <a href="http://feed.feedsky.com/js_sru0" target="_blank">订阅RSS</a></li>
+                </ul>
+            </div>
+            <div class="links-con">
+                <h2>友情链接</h2>
+                <ul>
+                    <li><a href="http://123.jser.us/" title="前端导航站，专注于前端的导航站" target="_blank">前端导航站 </a></li>
+                    <li><a href="http://blog.cooer.net/" title="cute boy!" target="_blank">Deemstone's Blog</a></li>
+                    <li><a href="http://rhl.name/" title="华立呀" target="_blank">holley's blogs</a></li>
+                    <li><a href="http://jingwei.li/blog/" title="大块头也有大智慧" target="_blank">宇义's blog</a></li>
+                    <li><a href="http://www.linhuihua.com/" title="~~~">找个角落思考</a></li>
+                    <li><a href="http://csser.me/">王传业的博客</a></li>
+                    <li><a href="http://blog.meituo.net/" title="靠谱，努力，内向的家伙">美拓blog</a></li>
+                    <li><a href="http://bluehua.org/" title="The true geeker and who lead me far in program javascript" target="_blank">蓝色的华</a></li>
+                    <li><a href="http://www.365code.us/blog/" title="首席吐糟专家" target="_blank">狸二宝blog </a></li>
+                    <li><a href="http://litianmin.com/" title="谦和给力的天民大哥" target="_blank">明心见性，顿悟成佛 </a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="site-info"> Copyright © 2013. Create By <a href="/about.html">草依山,</a> <a href="https://github.com/jserme/jserme.github.io"> Fork</a> </div>
+    </div>
+    <script type="text/javascript">
+       (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'hm.baidu.com/h.js?f628d86243daf05c564aa17f55e27b02'; 
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+       })();
+       if( document.getElementById('comment')) {
+            var duoshuoQuery = {short_name:"jserme"};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] 
+                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+       }
+    </script>
+  </body>
+</html>
