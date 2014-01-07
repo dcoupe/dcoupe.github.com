@@ -79,14 +79,6 @@ h1.title {
 }
 section {
     padding: 5px;
-    border-top: 1px solid #fff;
-    background: #fafafa;
-    background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #fafafa), color-stop(100%, #dedede));
-    background: -webkit-linear-gradient(#fafafa, #dedede 700px);
-    background: -moz-linear-gradient(#fafafa, #dedede 700px);
-    background: -o-linear-gradient(#fafafa, #dedede 700px);
-    background: -ms-linear-gradient(#fafafa, #dedede 700px);
-    background: linear-gradient(#fafafa, #dedede 700px);
     position: relative;
     min-height:400px;
     z-index:3;
@@ -143,8 +135,10 @@ hr {
     margin: 0 0 20px;
 }
 footer {
-    width: 100%;
     background-color: #f3f3f3;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc;
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc;
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #B2D2E1;
