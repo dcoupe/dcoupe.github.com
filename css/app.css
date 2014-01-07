@@ -165,6 +165,7 @@ code {
 }
 pre,pre code{
 	background: #222;
+	border: none;
 }
 .table {
     width: 100%;
