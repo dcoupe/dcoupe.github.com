@@ -27,6 +27,7 @@ a {
 }
 a:hover {
     color: #339ACC;
+    text-decoration: underline;
 }
 header {
     background-color: #f3f3f3;
@@ -68,14 +69,14 @@ header .logo {
 }
 h1.title {
     font-size:16px;
-    line-height:19px;
+    line-height:20px;
 }
 .post p {
     font-size:12px;
-    line-height:15px;
+    line-height:16px;
 }
 .post {
-    border-bottom:1px solid #888;
+    border-bottom: 1px solid rgba(0,0,0,0.13);
 }
 section {
     padding: 5px;
@@ -108,6 +109,7 @@ h1 {
     margin:12px 0;
 }
 h2 {
+	font-size: 18px;
     margin:15px 0 10px 0 ; 
 }
 h3, h4, h5, h6 {
@@ -116,8 +118,6 @@ h3, h4, h5, h6 {
 blockquote {
     margin: 0 -20px 20px;
     padding: 15px 20px 1px 40px;
-    font-style: italic;
-    background: #ccc;
     background: rgba(0, 0, 0, 0.06);
     color: #222;
 }
@@ -249,17 +249,14 @@ table {
     float:right;
 }
 .site-info {
+	border-top: 1px solid #B2D2E1;
     text-align:center;
     padding:10px 0;
 }
 code {
-    background:#222;
-    color:#FFF;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
+    background:#f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 2px;
     padding:3px 5px;
 }
 /** 480px __________________________________________________________________________________________________________ */
