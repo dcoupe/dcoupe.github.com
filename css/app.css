@@ -254,9 +254,10 @@ table {
     padding:10px 0;
 }
 code {
+	margin: 0 2px;
     background:#f8f8f8;
     border: 1px solid #ddd;
-    border-radius: 2px;
+    border-radius: 3px;
     padding:3px 5px;
 }
 /** 480px __________________________________________________________________________________________________________ */
