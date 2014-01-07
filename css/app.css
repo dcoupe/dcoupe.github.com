@@ -29,13 +29,10 @@ a:hover {
     color: #339ACC;
 }
 header {
-    background: #C6EAFA;
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ddfbfc), color-stop(100%, #c6eafa));
-    background: -webkit-linear-gradient(#ddfbfc, #c6eafa);
-    background: -moz-linear-gradient(#ddfbfc, #c6eafa);
-    background: -o-linear-gradient(#ddfbfc, #c6eafa);
-    background: -ms-linear-gradient(#ddfbfc, #c6eafa);
-    background: linear-gradient(#ddfbfc, #c6eafa);
+    background-color: #f3f3f3;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc;
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc;
     position: relative;
     padding:5px;
     border-bottom: 1px solid #B2D2E1;
