@@ -78,6 +78,7 @@ h1.title {
     border-bottom: 1px solid rgba(0,0,0,0.13);
 }
 section {
+	background: #fff;
     padding: 5px;
     position: relative;
     min-height:400px;
@@ -142,6 +143,11 @@ footer {
     text-align: center;
     padding: 10px 0;
     border-top: 1px solid #B2D2E1;
+    -webkit-border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -ms-border-radius: 0 0 8px 8px;
+    -o-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px;
 }
 table {
     max-width: 100%;
@@ -298,11 +304,6 @@ code {
     }
     section {
         padding: 15px 20px;
-        -webkit-border-radius: 0 0 8px 8px;
-        -moz-border-radius: 0 0 8px 8px;
-        -ms-border-radius: 0 0 8px 8px;
-        -o-border-radius: 0 0 8px 8px;
-        border-radius: 0 0 8px 8px;
     }
     .pagination {
         height: 40px;
