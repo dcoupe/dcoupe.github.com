@@ -7,7 +7,6 @@ body {
 .container {
     width: 320px;
     margin: 0 auto;
-    background: #DEDEDE;
     position:relative;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -156,6 +155,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+code {
+	font-family: monospace;
+	margin: 0 2px;
+    background:#f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding:3px 5px;
+}
 .table {
     width: 100%;
     margin-bottom: 18px;
@@ -253,13 +260,7 @@ table {
     text-align:center;
     padding:10px 0;
 }
-code {
-	margin: 0 2px;
-    background:#f8f8f8;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    padding:3px 5px;
-}
+
 /** 480px __________________________________________________________________________________________________________ */
  @media only screen and (min-width: 480px) {
     .container {
