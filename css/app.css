@@ -163,6 +163,9 @@ code {
     border-radius: 3px;
     padding:3px 5px;
 }
+pre,pre code{
+	background: #222;
+}
 .table {
     width: 100%;
     margin-bottom: 18px;
