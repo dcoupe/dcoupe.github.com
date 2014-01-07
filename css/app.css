@@ -144,10 +144,10 @@ hr {
 }
 footer {
     width: 100%;
-    color: #ccc;
-    overflow: hidden;
-    background:#FFF;
-    border-top:5px #C6EAFA solid;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #B2D2E1;
 }
 table {
     max-width: 100%;
@@ -254,11 +254,6 @@ code {
 }
 .meta .datetime {
     float:right;
-}
-.site-info {
-	border-top: 1px solid #B2D2E1;
-    text-align:center;
-    padding:10px 0;
 }
 
 /** 480px __________________________________________________________________________________________________________ */
